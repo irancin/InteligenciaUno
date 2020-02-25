@@ -32,7 +32,7 @@ public class principal extends javax.swing.JFrame {
         voz=vocesI.getVoice("mbrola_us1");
         voz.allocate();
         for (int i =0;i<11;i++){
-        voz.speak("Welcome to my new house");
+        voz.speak("Welcome to my new house now");
         }
     }
     
