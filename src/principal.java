@@ -31,8 +31,11 @@ public class principal extends javax.swing.JFrame {
         vocesI= VoiceManager.getInstance();
         voz=vocesI.getVoice("mbrola_us1");
         voz.allocate();
-        voz.speak("hola mundo and hello my friend");
+        for (int i =0;i<11;i++){
+        voz.speak("Welcome to my new house");
+        }
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
